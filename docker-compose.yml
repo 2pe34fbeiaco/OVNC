@@ -2,7 +2,7 @@ services:
     ubuntu2:
         public: true
         container_name: sdukakk
-        image: imlala/ubuntu-xfce-vnc-novnc:latest
+        image: escolasoft/ubuntu-ssh:latest
         ports:
             - 6080:6080
         environment: 
